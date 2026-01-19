@@ -1,0 +1,21 @@
+categories:
+  RDP:
+    techniques:
+      - T1133
+      - T1078
+  SSH:
+    techniques:
+      - T1133
+      - T1078
+  VPN:
+    techniques:
+      - T1133
+  WEB_ADMIN:
+    techniques:
+      - T1190
+  WEB:
+    techniques:
+      - T1190
+  DB:
+    techniques:
+      - T1133

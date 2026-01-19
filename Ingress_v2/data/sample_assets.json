@@ -1,0 +1,110 @@
+[
+  {
+    "ip": "203.0.113.10",
+    "port": 3389,
+    "transport": "tcp",
+    "org": "Internet Rimon",
+    "isp": "ExampleISP",
+    "asn": "AS64500",
+    "hostnames": [
+      "rdp.examplecorp.com"
+    ],
+    "domains": [
+      "examplecorp.com"
+    ],
+    "product": "Microsoft Terminal Services",
+    "version": null,
+    "tags": [],
+    "timestamp": "2026-01-01T10:00:00.000Z",
+    "banner": "RDP Service Ready",
+    "ssl": {
+      "cert": {
+        "subject": {
+          "CN": "rdp.examplecorp.com"
+        },
+        "extensions": {
+          "subjectAltName": "DNS:rdp.examplecorp.com, DNS:*.examplecorp.com"
+        }
+      }
+    },
+    "http": null,
+    "geo": {
+      "country": "Israel",
+      "country_code": "IL",
+      "city": "Modi'in Makkabbim Re'ut",
+      "region_code": "M",
+      "latitude": 31.8969,
+      "longitude": 35.0104
+    },
+    "raw": {
+      "shodan_id": "sample-1",
+      "opts": {}
+    }
+  },
+  {
+    "ip": "198.51.100.25",
+    "port": 22,
+    "transport": "tcp",
+    "org": "ExampleHoster",
+    "isp": "ExampleISP",
+    "asn": "AS64501",
+    "hostnames": [
+      "ssh.lab-example.net"
+    ],
+    "domains": [
+      "lab-example.net"
+    ],
+    "product": "OpenSSH",
+    "version": "7.2",
+    "tags": [],
+    "timestamp": "2026-01-01T10:00:00.000Z",
+    "banner": "OpenSSH 7.2 - login",
+    "ssl": null,
+    "http": null,
+    "geo": {
+      "country": "Germany",
+      "country_code": "DE",
+      "city": "Frankfurt",
+      "region_code": "HE",
+      "latitude": 50.1109,
+      "longitude": 8.6821
+    },
+    "raw": {
+      "shodan_id": "sample-2",
+      "opts": {}
+    }
+  },
+  {
+    "ip": "192.0.2.77",
+    "port": 8080,
+    "transport": "tcp",
+    "org": "LabNetwork",
+    "isp": "LabISP",
+    "asn": "AS64502",
+    "hostnames": [
+      "admin.demo.local"
+    ],
+    "domains": [],
+    "product": "Web Admin Panel",
+    "version": null,
+    "tags": [],
+    "timestamp": "2026-01-01T10:00:00.000Z",
+    "banner": "Admin Dashboard - default password",
+    "ssl": null,
+    "http": {
+      "title": "ExampleAdmin Panel"
+    },
+    "geo": {
+      "country": "United States",
+      "country_code": "US",
+      "city": "Ashburn",
+      "region_code": "VA",
+      "latitude": 39.0438,
+      "longitude": -77.4874
+    },
+    "raw": {
+      "shodan_id": "sample-3",
+      "opts": {}
+    }
+  }
+]
